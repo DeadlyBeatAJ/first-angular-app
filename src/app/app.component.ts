@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-angular-app';
+  title = 'Deadlybeat';
+
+
+  //for 2 way data binding
+  message :any="Any Message";
 }
